@@ -1,6 +1,8 @@
-## Hi 👋, I'm Licht.
+<center>
 
-> Living, Learning, Enjoying.
+## Hi 👋, I'm Licht
+
+Living, Learning, Enjoying.
 
 <!-- ### Stats -->
 
@@ -34,3 +36,5 @@
 
 [![mihomo](https://github-readme-stats.vercel.app/api/pin/?username=ewigl&repo=mihomo)](https://github.com/ewigl/mihomo)
 [![aria2](https://github-readme-stats.vercel.app/api/pin/?username=ewigl&repo=aria2)](https://github.com/ewigl/aria2)
+
+</center>
