@@ -1,9 +1,5 @@
 <center>
 
-## Hi 👋, I'm Licht
-
-Living, Learning, Enjoying.
-
 <!-- ### Stats -->
 
 <!-- from https://github.com/anuraghazra/github-readme-stats -->
