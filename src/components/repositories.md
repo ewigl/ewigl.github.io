@@ -4,7 +4,7 @@
 
 <!-- from https://github.com/anuraghazra/github-readme-stats -->
 
-<!-- [![Licht's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ewigl&show_icons=true&rank_icon)](https://github.com/ewigl) -->
+[![Licht's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ewigl&show_icons=true&rank_icon)](https://github.com/ewigl)
 
 ### Pages
 
