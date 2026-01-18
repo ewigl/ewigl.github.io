@@ -1,0 +1,73 @@
+baseURL: https://ewigl.github.io/
+languageCode: zh-CN
+defaultContentLanguage: zh-CN
+defaultContentLanguageInSubdir: false
+title: EwigLicht
+
+hasCJKLanguage: true
+enableEmoji: true
+
+permalinks:
+  posts: /posts/:slug/
+  projects: /projects/:slug/
+  pages: /:slug/
+
+pagination:
+  pagerSize: 10
+  path: "page"
+
+taxonomies:
+  # category: categories
+  # series: series
+  tag: tags
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      extras:
+        delete:
+          enable: true
+        insert:
+          enable: true
+        mark:
+          enable: true
+        subscript:
+          enable: false
+        superscript:
+          enable: false
+      strikethrough: false
+  highlight:
+    codeFences: true
+    guessSyntax: false
+    lineNos: false
+    lineNumbersInTable: false
+    noClasses: false
+    style: github
+    tabWidth: 2
+
+outputs:
+  home: ["HTML", "JSON", "WebAppManifest"]
+
+outputFormats:
+  WebAppManifest:
+    mediaType: "application/manifest+json"
+    baseName: "site"
+    isPlainText: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: 0.146.0
+  imports:
+    - path: github.com/tom2almighty/hugo-narrow
+
+# For github pages image caching
+caches:
+  images:
+    dir: :cacheDir/images

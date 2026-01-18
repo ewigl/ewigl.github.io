@@ -1,0 +1,237 @@
+# Basic site info with SEO
+description: "Licht's Personal Blog - Sharing knowledge and experiences on technology, programming, and life."
+keywords: ["Blog", "Technology", "Programming", "Coding", "Gaming", "Life"]
+defaultAuthor: "EwigLicht"
+language: "zh-CN"
+shortName: "Licht" # PWA
+images:
+  - "/icons/logo.jpg"
+
+# Favicon
+favicon:
+  svg: "/favicon.svg" # SVG format favicon (recommended)
+
+# Author info
+author:
+  name: "EwigLicht"
+  title: "Licht's Blog."
+  description: "Living, learning and enjoying."
+  avatar: "/icons/logo.jpg"
+  social:
+    - name: "GitHub"
+      url: "https://github.com/ewigl"
+      icon: "github"
+
+# Header configuration (modularized)
+header:
+  sticky: true # Enable sticky navigation bar
+  logo:
+    image: "/icons/logo.jpg" # Logo path relative to static folder, leave empty to use site title first letter
+    link: "/" # Click to home page
+  # UI Components Control (header controls)
+  showThemeSwitch: false # Set to false to hide theme style switcher (palette icon)
+  showDarkModeSwitch: true # Set to false to hide dark mode switcher (sun/moon icon)
+  showLanguageSwitch: false # Set to false to hide language switcher
+  languageSwitchMode: "dropdown" # Language switch mode: "dropdown" (show panel) or "cycle" (direct cycle)
+
+# Dock display mode
+# Options: "scroll" (show on scroll up), "always" (always visible), "float" (floating button)
+dock: "float"
+
+# TOC (Table of Contents)
+toc:
+  enabled: true # Enable or disable TOC globally
+  position: "right" # Options: card left right
+  maxWidth: "280px"
+  maxHeight: "80vh"
+
+# Series (Document Series Navigation)
+series:
+  enabled: false # Enable or disable Series globally
+  position: "right" # Options: card left right
+  maxWidth: "280px"
+  maxHeight: "80vh"
+  showProgress: true # Show reading progress (e.g., "2/5")
+  showInHeader: true # Show series info card in article header
+
+# Default color scheme
+colorScheme: "default"
+themes:
+  default:
+    name: "Default"
+    order: 1
+  claude:
+    name: "Claude"
+    order: 2
+  bumblebee:
+    name: "Bumblebee"
+    order: 3
+  emerald:
+    name: "Emerald"
+    order: 4
+  nord:
+    name: "Nord"
+    order: 5
+  sunset:
+    name: "Sunset"
+    order: 6
+  abyss:
+    name: "Abyss"
+    order: 7
+  dracula:
+    name: "Dracula"
+    order: 8
+  amethyst:
+    name: "Amethyst"
+    order: 9
+  slate:
+    name: "Slate"
+    order: 10
+  twitter:
+    name: "Twitter"
+    order: 11
+
+# Home page configuration
+home:
+  recentPostsCount: 3 # Number of recent posts to show on the home page
+
+  # Content order configuration - customize the order of home page sections
+  # Available sections: author-section, recent-posts, featured-projects, page-content
+  # You can add your custom content by creating files in `layouts/_partials/home/` folder, then add it to the list
+  contentOrder:
+    - author-section
+    - page-content
+    - featured-projects.html
+    - recent-posts
+
+# Post configuration
+post:
+  showRelated: true # show related posts
+  relatedPostsCount: 3 # posts number
+  license:
+    show: true
+    author: "EwigLicht"
+    name: "CC BY-NC-SA 4.0"
+    description: "本作品采用 CC BY-NC-SA 4.0 国际许可协议进行许可。请注明来源，非商业性使用，并保持相同的许可协议。 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Please attribute the source, use non-commercially, and maintain the same license."
+    url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    displayName: "CC BY-NC-SA 4.0"
+
+# Comments
+comments:
+  enabled: false
+  # giscus, disqus, utterances, waline, artalk, twikoo
+  system: "giscus"
+  giscus:
+    repo: "tom2almighty/hugo-narrow-giscus"
+    repoId: "R_kgDOO2gwLg"
+    category: "General"
+    categoryId: "DIC_kwDOO2gwLs4CrEaf"
+    mapping: "pathname"
+    strict: "0"
+    reactionsEnabled: "1"
+    emitMetadata: "0"
+    inputPosition: "bottom"
+    theme: "preferred_color_scheme"
+    lang: "en"
+  disqus:
+    shortname: ""
+  utterances:
+    repo: ""
+    issueTerm: "pathname"
+    label: "comment"
+    theme: "preferred-color-scheme"
+  waline:
+    serverURL: ""
+    lang: "zh-CN"
+  artalk:
+    server: ""
+    site: ""
+    locale: "zh-CN" # String|Object|"auto"
+    darkMode: "auto"
+    gravatar:
+      mirror: "https://cravatar.cn/avatar/"
+  twikoo:
+    envId: ""
+    region: "ap-shanghai"
+    path: ""
+    lang: "zh-CN"
+
+# Analytics
+analytics:
+  enabled: true
+  baidu:
+    enabled: false
+    id: "your-baidu-analytics-id"
+  clarity:
+    enabled: false
+    id: "your-clarity-analytics-id"
+  google:
+    enabled: true
+    id: "G-3WX4XJC2T0"
+  umami:
+    enabled: false
+    id: "your-umami-website-id"
+    src: "https://umami.com/myscript.js"
+    domains: "example.domain.com"
+
+# KaTeX
+katex:
+  enabled: true
+  delimiters:
+    - left: "$$"
+      right: "$$"
+      display: true
+    - left: "$"
+      right: "$"
+      display: false
+    - left: "\\("
+      right: "\\)"
+      display: false
+    - left: "\\["
+      right: "\\]"
+      display: true
+
+# Mermaid
+mermaid:
+  enabled: true
+
+# GLightbox
+lightbox:
+  enabled: false
+  loop: false
+  width: 80vw
+  height: 80vh
+  touchNavigation: true
+  draggable: true
+  zoomable: true
+  preload: true
+  descPosition: bottom
+
+# Justified Gallery
+justified_gallery:
+  enabled: false
+  rowHeight: 300
+  gutter: 30
+  lastRow: center
+  transitionDuration: 0.3s
+  resizeDebounce: 100
+  rowHeightTolerance: 0.25
+  maxRowsCount: 999999
+  calculateItemsHeight: false
+
+# Code block
+codeblock:
+  collapse:
+    enabled: true
+    defaultState: expanded # expanded, collapsed
+    autoCollapseLines: 32
+    autoCollapseHeight: 512
+    collapsedHeight: 256
+
+# Reading progress
+readingProgress:
+  enabled: true
+  height: 3
+  showOnHomepage: false
+  smoothScroll: true
+  hideOnComplete: false

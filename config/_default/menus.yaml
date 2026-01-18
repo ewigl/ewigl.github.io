@@ -1,0 +1,52 @@
+main:
+  - name: nav.projects
+    pageRef: /projects
+    weight: 10
+    params:
+      icon: projects
+  - name: nav.posts
+    pageRef: /posts
+    weight: 20
+    params:
+      icon: posts
+  # - name: nav.categories
+  #   pageRef: /categories
+  #   weight: 30
+  #   params:
+  #     icon: categories
+  - name: nav.tags
+    pageRef: /tags
+    weight: 40
+    params:
+      icon: tags
+  # - name: nav.about
+  #   pageRef: /about
+  #   weight: 999
+  #   params:
+  #     icon: about
+
+# footer menu
+footer:
+  - name: 待办
+    pageRef: /to-do
+    weight: 10
+    params:
+      icon: book-open
+  - name: 应用
+    pageRef: /apps
+    weight: 20
+    params:
+      icon: library
+  - name: nav.about
+    pageRef: /about
+    weight: 999
+    params:
+      icon: about
+
+# footer social link
+# social:
+#   - name: GitHub
+#     url: https://github.com/ewigl
+#     weight: 10
+#     params:
+#       icon: github
