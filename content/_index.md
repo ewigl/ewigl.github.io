@@ -4,7 +4,7 @@ title: "首页"
 author:
   name: "EwigLicht"
   title: "Living, learning and enjoying."
-  # description: "个人项目与文章。"
+  description: "个人主页，用于展示开源项目与公开文章。"
   avatar: "/icons/logo.jpg"
   social:
     - name: "GitHub"

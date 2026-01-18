@@ -1,6 +1,6 @@
 ---
 title: { { replace .File.ContentBaseName "-" " " | title } }
-description: { { replace .File.ContentBaseName "-" " " | title } }
+summary: { { replace .File.ContentBaseName "-" " " | title } }
 cover: cover.jpg
 
 date: { { .Date } }

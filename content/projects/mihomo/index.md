@@ -1,6 +1,6 @@
 ---
 title: Mihomo
-description: Mihomo 配置文件。
+summary: Mihomo 配置文件。
 cover: cover.jpg
 
 date: 2026-01-17

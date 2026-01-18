@@ -1,6 +1,6 @@
 ---
 title: 待办
-description: 未来可期。
+summary: 未来可期。
 cover: cover.jpg
 
 date: 1999-11-02
