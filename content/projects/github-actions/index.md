@@ -24,7 +24,6 @@ status: completed
 - [HIFINI 音乐磁场自动签到](https://github.com/ewigl/hifini-auto-checkin)
 - [iKuuu 机场自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
 - [PicACG 哔咔漫画 定时自动签到](https://github.com/ewigl/picacg-auto-checkin)
-- [ZodGame 自动签到](https://github.com/ewigl/zodgame-auto-checkin)
 
 ## 示例用法
 
