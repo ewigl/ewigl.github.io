@@ -13,11 +13,12 @@ tags:
 
 ## 影视
 
-| 标题                    | 时间 | 信息                                                                                                                |
-| ----------------------- | ---- | ------------------------------------------------------------------------------------------------------------------- |
-| 败犬女主太多了！ 第二季 |      | [官网](https://makeine-anime.com/) [YouTube](https://www.youtube.com/watch?v=T1Zb91kViG8)                           |
-| FX 战士久留美           |      | [咨询](https://natalie.mu/comic/news/656728)                                                                        |
-| 孤独摇滚 第二季         |      | [官网](https://bocchi.rocks/omnibus/news/?article_id=67179) [X](https://x.com/BTR_anime/status/1890727010978132322) |
+| 标题                         | 时间 | 信息                                                                                                                                |
+| ---------------------------- | ---- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| 败犬女主太多了！ 第二季      |      | [官网](https://makeine-anime.com/) [YouTube](https://www.youtube.com/watch?v=T1Zb91kViG8)                                           |
+| FX 战士久留美                |      | [资讯](https://natalie.mu/comic/news/656728)                                                                                        |
+| 孤独摇滚 第二季              |      | [官网](https://bocchi.rocks/omnibus/news/?article_id=67179) [X](https://x.com/BTR_anime/status/1890727010978132322)                 |
+| 为美好的世界献上祝福！第四季 |      | [官网](https://konosuba.com/10th_anniv/news/?mode=detail&id=20260113_7) [X](https://x.com/konosubaanime/status/2011069712621584649) |
 
 ## 游戏
 
