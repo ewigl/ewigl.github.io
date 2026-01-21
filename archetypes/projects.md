@@ -1,9 +1,9 @@
 ---
-title: { { replace .File.ContentBaseName "-" " " | title } }
-summary: { { replace .File.ContentBaseName "-" " " | title } }
+title: {{ replace .File.ContentBaseName "-" " " | title }}
+summary: {{ replace .File.ContentBaseName "-" " " | title }}
 cover: cover.jpg
 
-date: { { .Date } }
+date: {{ .Date }}
 
 featured: false
 
