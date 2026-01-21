@@ -1,9 +1,9 @@
 ---
 title: Mihomo
-summary: Mihomo 配置文件。
+summary: Mihomo tun 模式配置文件。
 cover: cover.jpg
 
-date: 2026-01-17
+date: 2023-11-02
 
 featured: true
 
@@ -16,6 +16,7 @@ website:
 tech_stack:
   - VBScript
   - Batchfile
+
 status: completed
 ---
 

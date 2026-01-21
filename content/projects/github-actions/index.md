@@ -3,7 +3,7 @@ title: Github Actions Tasks
 summary: 利用 GitHub Actions 执行自动任务。
 cover: cover.jpg
 
-date: 2025-03-23
+date: 2024-06-02
 
 featured: true
 
@@ -16,6 +16,7 @@ website:
 tech_stack:
   - JavaScript
   - GitHub Actions
+
 status: completed
 ---
 

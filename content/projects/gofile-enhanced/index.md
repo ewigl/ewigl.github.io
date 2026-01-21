@@ -3,7 +3,7 @@ title: GoFile Enhanced
 summary: GoFile 批量下载文件脚本。
 cover: cover.jpg
 
-date: 2025-12-22
+date: 2024-11-02
 
 featured: true
 
@@ -15,6 +15,7 @@ demo:
 website:
 tech_stack:
   - JavaScript
+
 status: completed
 ---
 

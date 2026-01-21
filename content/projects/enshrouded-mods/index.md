@@ -3,7 +3,7 @@ title: 《雾锁王国》模组
 summary: 《雾锁王国》游戏 Mod。
 cover: cover.jpg
 
-date: 2026-01-17
+date: 2025-11-20
 
 featured: false
 
@@ -15,8 +15,8 @@ demo: ""
 website: "https://www.nexusmods.com/profile/EwigLicht8486/mods?gameId=5811"
 tech_stack:
   - Lua
+
 status: "completed"
-# Options: completed, in_progress, planning
 ---
 
 ## Custom Buildzone Sizes

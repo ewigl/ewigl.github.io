@@ -3,7 +3,7 @@ title: 《塞尔达传说 旷野之息》模组
 summary: 《塞尔达传说 旷野之息》游戏 Mod，NS1 1.8.2 版本。
 cover: cover.jpg
 
-date: 2026-01-21T14:51:08+08:00
+date: 2025-10-25
 
 featured: false
 
