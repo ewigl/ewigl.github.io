@@ -10,10 +10,10 @@ author:
     - name: GitHub
       url: https://github.com/ewigl
       icon: github
-    - name: NexusMods
-      url: https://www.nexusmods.com/profile/EwigLicht8486
-      icon: nexusmods
     - name: GreasyFork
       url: https://greasyfork.org/users/1231416
       icon: greasyfork
+    - name: NexusMods
+      url: https://www.nexusmods.com/profile/EwigLicht8486
+      icon: nexusmods
 ---

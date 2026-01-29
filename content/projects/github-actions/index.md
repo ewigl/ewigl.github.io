@@ -28,28 +28,31 @@ status: completed
 
 ## 示例用法
 
-1.  Fork 仓库
+### Fork 仓库
 
-    点击仓库右上角 Fork 按钮将仓库复制到自己的 GitHub 账户。
+点击仓库右上角 Fork 按钮将仓库复制到自己的 GitHub 账户。
 
-    ![08](images/08.png)
+![08](images/08.png)
 
-    ![09](images/09.png)
+![09](images/09.png)
 
-2.  启用 Actions
+### 启用 Actions
 
-    在自己仓库的左上角找到 Actions 标签页。启用 Workflows。
+在复制后的仓库左上角找到 Actions。启用 Workflows。
 
-    ![03](images/03.png)
+![03](images/03.png)
 
-3.  配置 Actions 变量
+### 配置 Actions
 
-    在自己仓库的左上角找到 Settings 标签页，选择 Secrets and variables。新建 Actions 变量。
+在复制后的仓库的左上角找到 Settings 标签页，选择 Secrets and variables。配置 Actions 变量。
 
-    请注意查看对应项目的 README 文档，添加所需的变量。
+> [!NOTE]
+> 请查看对应项目的 README 文档确定所需变量。
+  
+![01](images/01.png)
 
-    ![01](images/01.png)
-    ![02](images/02.png)
+![02](images/02.png)
+
 
 ## 常见问题
 
@@ -57,15 +60,16 @@ status: completed
 
 ![05](images/05.png)
 
-### 查看运行结果
+### 检查运行情况
 
 ![06](images/06.png)
 
-### 修改运行时间
+### 调整运行时间
 
-修改 Checkin.yml 中的时间表即可，希望运行多次添加多行 crontab 即可。
+按需修改 Checkin.yml 文件中的 crontab，希望执行多次添加多行即可。
 
-时区为 UTC。
-且 GitHub Actions 定时任务存在时间延迟。尽量避免将时间设置在高峰时段（整点、半点时段）。
+> [!NOTE]
+> 时区为 UTC。
+> 且 GitHub Actions 定时任务存在时间延迟。尽量避免将时间设置在高峰时段（整点、半点时段）。
 
 ![10](images/10.png)
