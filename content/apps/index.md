@@ -14,24 +14,25 @@ tags:
 
 ### 基础应用
 
-| 名称 & 来源                                                                     | 扩展                                          | 便携化 / 保存配置                           |
-| ------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------- |
-| [7zip](https://www.7-zip.org/)                                                  |                                               |                                             |
-| [AB Download Manager](https://github.com/amir1376/ab-download-manager/releases) |                                               | √ 于根目录创建 .abdm 目录。                 |
-| [Adobe 应用](https://vk.com/monkrus)                                            |                                               |                                             |
-| [Chrome](https://www.google.com/chrome/)                                        |                                               |                                             |
-| [foobar2000](https://www.foobar2000.org/windows)                                | [ESLyric](https://github.com/ESLyric/release) | 安装后于根目录创建 profile 目录。           |
-| [Greenshot](https://github.com/greenshot/greenshot/releases)                    |                                               | √                                           |
-| [Internet Download Manager](https://www.internetdownloadmanager.com/)           | [idm.ckk.ir](https://idm.ckk.ir/)             |                                             |
-| [IrfanView](https://www.irfanview.com/)                                         | 安装 All plugins 选项                         | 根目录 i_view64.ini 文件为配置文件。        |
-| [Mihomo](https://github.com/ewigl/mihomo)                                       |                                               | √                                           |
-| [PotPlayer](https://potplayer.daum.net/)                                        | 安装解码器选项                                | 根目录 PotPlayerMini64.ini 文件为配置文件。 |
-| [qBittorrent](https://www.qbittorrent.org/)                                     | 安装 qt6 lt20 版本                            | 安装后于根目录创建 profile 目录。           |
-| [Steam](https://store.steampowered.com/about)                                   |                                               |                                             |
-| [Sublime Text](https://www.sublimetext.com/)                                    |                                               | √                                           |
-| [Telegram](https://telegram.org/)                                               |                                               | √                                           |
-| [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)                | [PawnIO](https://pawnio.eu/)                  | √                                           |
-| [VS Code](https://code.visualstudio.com/download)                               |                                               | √ 于根目录创建 data 目录。                  |
+| 名称 & 来源                                                                     | 扩展                                                         | 便携化 / 保存配置                           |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
+| [7zip](https://www.7-zip.org/)                                                  |                                                              |                                             |
+| [AB Download Manager](https://github.com/amir1376/ab-download-manager/releases) |                                                              | √ 于根目录创建 .abdm 目录。                 |
+| [Adobe 应用](https://vk.com/monkrus)                                            |                                                              |                                             |
+| [Chrome](https://www.google.com/chrome/)                                        |                                                              |                                             |
+| [foobar2000](https://www.foobar2000.org/windows)                                | [ESLyric](https://github.com/ESLyric/release)                | 安装后于根目录创建 profile 目录。           |
+| [Greenshot](https://github.com/greenshot/greenshot/releases)                    |                                                              | √                                           |
+| [Internet Download Manager](https://www.internetdownloadmanager.com/)           | [idm.ckk.ir](https://idm.ckk.ir/)                            |                                             |
+| [IrfanView](https://www.irfanview.com/)                                         | 安装 All plugins 选项                                        | 根目录 i_view64.ini 文件为配置文件。        |
+| [Mihomo](https://github.com/ewigl/mihomo)                                       |                                                              | √                                           |
+| [PotPlayer](https://potplayer.daum.net/)                                        | 安装解码器选项                                               | 根目录 PotPlayerMini64.ini 文件为配置文件。 |
+| [qBittorrent](https://www.qbittorrent.org/)                                     | 安装 qt6 lt20 版本                                           | 安装后于根目录创建 profile 目录。           |
+| [Sigil](https://github.com/Sigil-Ebook/Sigil/releases)                          | [PageEdit](https://github.com/Sigil-Ebook/PageEdit/releases) |                                             |
+| [Steam](https://store.steampowered.com/about)                                   |                                                              |                                             |
+| [Sublime Text](https://www.sublimetext.com/)                                    |                                                              | √                                           |
+| [Telegram](https://telegram.org/)                                               |                                                              | √                                           |
+| [TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor)                | [PawnIO](https://pawnio.eu/)                                 | √                                           |
+| [VS Code](https://code.visualstudio.com/download)                               |                                                              | √ 于根目录创建 data 目录。                  |
 
 ### 实用工具
 
