@@ -46,19 +46,19 @@ tags:
 
 #### 选装
 
-| 名称 & 来源                                                                                                           | 扩展 | 便携化 / 保存配置              |
-| --------------------------------------------------------------------------------------------------------------------- | ---- | ------------------------------ |
-| [AdobeCreativeCloudCleanerTool](https://helpx.adobe.com/creative-cloud/kb/cc-cleaner-tool-installation-problems.html) |      | √                              |
-| [CheatEngine](https://cheatengine.org/)                                                                               |      |                                |
-| [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextratgui/files/)                                               |      | √                              |
-| [LenovoLegionToolkit](https://github.com/XKaguya/LenovoLegionToolkit) (仅限 Lenovo Legion)                            |      |                                |
-| [mkvtoolnix](https://mkvtoolnix.download/downloads.html)                                                              |      | √                              |
-| [Mocreak](https://github.com/OdysseusYuan/Mocreak) / [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)  |      |                                |
-| [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)                                                   |      | √                              |
-| [Ryujinx](https://github.com/Ryubing/) / [Git Repo](https://git.ryujinx.app/ryubing/ryujinx)                          |      | √ 于根目录创建 portable 目录。 |
-| [Rufus](https://github.com/pbatard/rufus/releases)                                                                    |      | √                              |
-| [Spek](https://github.com/alexkay/spek/releases)                                                                      |      | √                              |
-| [Ventory](https://github.com/ventoy/Ventoy)                                                                           |      | √                              |
+| 名称 & 来源                                                                                                                 | 扩展 | 便携化 / 保存配置              |
+| --------------------------------------------------------------------------------------------------------------------------- | ---- | ------------------------------ |
+| [AdobeCreativeCloudCleanerTool](https://helpx.adobe.com/creative-cloud/kb/cc-cleaner-tool-installation-problems.html)       |      | √                              |
+| [CheatEngine](https://cheatengine.org/)                                                                                     |      |                                |
+| [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextratgui/files/)                                                     |      | √                              |
+| [LenovoLegionToolkit](https://github.com/XKaguya/LenovoLegionToolkit) (仅限 Lenovo Legion)                                  |      |                                |
+| [mkvtoolnix](https://mkvtoolnix.download/downloads.html)                                                                    |      | √                              |
+| [Mocreak](https://github.com/OdysseusYuan/Mocreak) / [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)        |      |                                |
+| [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)                                                         |      | √                              |
+| [Ryujinx](https://ryujinx.app) / [GitLab](https://git.ryujinx.app/ryubing/ryujinx)  / [GitHub](https://github.com/Ryubing/) |      | √ 于根目录创建 portable 目录。 |
+| [Rufus](https://github.com/pbatard/rufus/releases)                                                                          |      | √                              |
+| [Spek](https://github.com/alexkay/spek/releases)                                                                            |      | √                              |
+| [Ventoy](https://github.com/ventoy/Ventoy)                                                                                  |      | √                              |
 
 ### SDK / Runtime
 
