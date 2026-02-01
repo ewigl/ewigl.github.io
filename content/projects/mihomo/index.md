@@ -52,7 +52,7 @@ status: completed
 
 ### 配置流程
 
-1. 添加订阅链接：在 `config.yaml` 文件中的 `Subscription` 中添加订阅链接，有多个订阅复制多份，名称不重复即可。
+1. 添加订阅链接：在 `config.yaml` 文件中的 `proxy-providers` 中添加订阅链接，有多个订阅复制多份，名称不重复即可。
 
    ```yaml {filename="config.yaml"}
    订阅1:
