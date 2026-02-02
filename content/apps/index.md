@@ -55,7 +55,7 @@ tags:
 | [mkvtoolnix](https://mkvtoolnix.download/downloads.html)                                                                    |      | √                              |
 | [Mocreak](https://github.com/OdysseusYuan/Mocreak) / [Office Tool Plus](https://otp.landian.vip/zh-cn/download.html)        |      |                                |
 | [Remove-MS-Edge](https://github.com/ShadowWhisperer/Remove-MS-Edge)                                                         |      | √                              |
-| [Ryujinx](https://ryujinx.app) / [GitLab](https://git.ryujinx.app/ryubing/ryujinx)  / [GitHub](https://github.com/Ryubing/) |      | √ 于根目录创建 portable 目录。 |
+| [Ryujinx](https://ryujinx.app) - [GitLab](https://git.ryujinx.app/ryubing/ryujinx)  / [GitHub](https://github.com/Ryubing/) |      | √ 于根目录创建 portable 目录。 |
 | [Rufus](https://github.com/pbatard/rufus/releases)                                                                          |      | √                              |
 | [Spek](https://github.com/alexkay/spek/releases)                                                                            |      | √                              |
 | [Ventoy](https://github.com/ventoy/Ventoy)                                                                                  |      | √                              |
@@ -74,3 +74,6 @@ tags:
 
 - [ffmpeg](https://ffmpeg.org/download.html)
 - [JDK](https://www.oracle.com/java/technologies/downloads/)
+- [MS Edge WebView2 Runtime (Evergreen Standalone Installer)](https://developer.microsoft.com/en-us/microsoft-edge/webview2)
+- [Node.js](https://nodejs.org/en/download/)
+- [Python](https://www.python.org/downloads/)
