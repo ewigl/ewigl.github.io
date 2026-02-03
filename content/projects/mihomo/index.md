@@ -72,7 +72,7 @@ D:/Apps/Mihomo/
       
       本地文件作为订阅源:
         type: file
-        url: 这里填文件相对路径
+        path: 这里填文件相对路径
         health-check:
           enable: true
           url: http://www.gstatic.com/generate_204
