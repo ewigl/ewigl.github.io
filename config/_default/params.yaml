@@ -41,8 +41,7 @@ dock: "float"
 # TOC (Table of Contents)
 toc:
   enabled: true # Enable or disable TOC globally
-  position: "right" # Options: card left right
-  maxWidth: "280px"
+  position: "card" # Options: card left right
   maxHeight: "80vh"
 
 # Series (Document Series Navigation)
