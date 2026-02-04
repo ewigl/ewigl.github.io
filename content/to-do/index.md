@@ -27,11 +27,11 @@ tags:
 
 > 暂无 Steam 商店页面的。
 
-| 标题        | 时间                          | 信息                                                                                                                                              |
-| ----------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GTA VI      | 2026.11.19 （PS 5 和 XS X/S） | [Rockstar Games](https://www.rockstargames.com/VI)                                                                                                |
-| 武士 零 DLC |                               | [Steam News](https://store.steampowered.com/news/app/460950/view/668329375662343343)                                                              |
-| Skyblivion  | 2026                          | [X](https://x.com/TESRSkyblivion/status/1996244524687929412)                                                                                      |
-| 上古卷轴 6  |                               | [预告](https://www.youtube.com/watch?v=OkFdqqyI8y4)                                                                                               |
-| VaM 2       | 1st beta 已发布, 等待新消息   | [论坛](https://hub.virtamate.com/threads/vam2-information-and-updates-current.68101/) [路线图](https://trello.com/b/KByJdWtA/vam2-public-roadmap) |
-| 巫师 4      |                               | [官网](https://www.thewitcher.com/sg/en/witcher4)                                                                                                 |
+| 标题        | 时间                              | 信息                                                                                                                                              |
+| ----------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GTA VI      | 2026.11.19 13:00 (PS 5 和 XS X/S) | [Rockstar Games](https://www.rockstargames.com/VI)                                                                                                |
+| 武士 零 DLC |                                   | [Steam News](https://store.steampowered.com/news/app/460950/view/668329375662343343)                                                              |
+| Skyblivion  | 2026                              | [X](https://x.com/TESRSkyblivion/status/1996244524687929412)                                                                                      |
+| 上古卷轴 6  |                                   | [预告](https://www.youtube.com/watch?v=OkFdqqyI8y4)                                                                                               |
+| VaM 2       | 1st beta 已发布, 等待新消息       | [论坛](https://hub.virtamate.com/threads/vam2-information-and-updates-current.68101/) [路线图](https://trello.com/b/KByJdWtA/vam2-public-roadmap) |
+| 巫师 4      |                                   | [官网](https://www.thewitcher.com/sg/en/witcher4)                                                                                                 |
