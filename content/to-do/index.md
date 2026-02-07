@@ -3,9 +3,6 @@ title: 待办
 summary: 未来可期。
 cover: cover.jpg
 
-date: 1999-11-02
-lastmod: 2026-01-17
-
 tags:
   - 影视
   - 游戏

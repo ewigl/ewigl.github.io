@@ -3,9 +3,6 @@ title: 应用
 summary: 常用应用来源、扩展等。
 cover: cover.jpg
 
-date: 1999-11-02
-lastmod: 2026-01-17
-
 tags:
   - 应用
 ---
