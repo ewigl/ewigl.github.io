@@ -4,7 +4,7 @@ summary: OpenWrt 使用相关信息。
 cover: cover.jpg
 
 date: 2025-02-20
-lastmod: 2025-02-21
+lastmod: 2026-02-07
 
 tags:
   - OpenWrt
@@ -17,12 +17,12 @@ tags:
 ## 自定义软件包
 
 ```
-luci-i18n-base-zh-cn luci-i18n-firewall-zh-cn luci-i18n-opkg-zh-cn iperf3 luci-i18n-smartdns-zh-cn
+luci-app-smartdns iperf3
 ```
 
 ## 自定义初始化脚本
 
-> 即 uci-defaults
+> uci-defaults
 
 ```sh
 # Beware! This script will be in /rom/etc/uci-defaults/ as part of the image.
@@ -80,26 +80,3 @@ fi
 echo "All done!"
 
 ```
-
-## AX3000T 相关
-
-### 刷入过程
-
-参考 OpenWrt Wiki 官方文档，使用 [XMiR-Patcher](https://github.com/openwrt-xiaomi/xmir-patcher) 刷入 OpenWrt。
-
-使用 scp 命令拷贝文件时如有必要使用 `-O` 参数。
-
-### 注意事项
-
-使用 XMiR-Patcher 备份过程中可能出现 Timed Out 问题。
-
-解决方法：[GitHub Issue](https://github.com/openwrt-xiaomi/xmir-patcher/issues/9#issuecomment-2209618296)。
-
-Timeout 设置为 90 并使用额外功能菜单中的单独备份模式分别备份各个分区。
-
-### 自定设置
-
-- 5G WIFI - 高级设置 - 国家代码设置为 US。
-- 信号覆盖密度最大。
-- 常规设置最大传输功率可选 24 dBm 或自动。
-- 选择 AU 等国家代码可能会因为频率过高 (超过 6GHZ) 导致终端设备搜索不到 5G 信号。

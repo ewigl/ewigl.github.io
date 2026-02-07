@@ -1,6 +1,6 @@
 ---
 title: 应用
-summary: 常用应用指南，包括来源、使用方法等。
+summary: 常用应用来源、扩展等。
 cover: cover.jpg
 
 date: 1999-11-02
@@ -18,7 +18,7 @@ tags:
 | ------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
 | [7zip](https://www.7-zip.org/)                                                  |                                                              |                                             |
 | [AB Download Manager](https://github.com/amir1376/ab-download-manager/releases) |                                                              | √ 于根目录创建 .abdm 目录。                 |
-| [Adobe 应用](https://vk.com/monkrus)                                            |                                                              |                                             |
+| [Adobe 系列](https://vk.com/monkrus)                                            |                                                              |                                             |
 | [Chrome](https://www.google.com/chrome/)                                        |                                                              |                                             |
 | [foobar2000](https://www.foobar2000.org/windows)                                | [ESLyric](https://github.com/ESLyric/release)                | 安装后于根目录创建 profile 目录。           |
 | [Greenshot](https://github.com/greenshot/greenshot/releases)                    |                                                              | √                                           |
@@ -27,6 +27,7 @@ tags:
 | [Mihomo](https://github.com/ewigl/mihomo)                                       |                                                              | √                                           |
 | [PotPlayer](https://potplayer.daum.net/)                                        | 安装解码器选项                                               | 根目录 PotPlayerMini64.ini 文件为配置文件。 |
 | [qBittorrent](https://www.qbittorrent.org/)                                     | 安装 qt6 lt20 版本                                           | 安装后于根目录创建 profile 目录。           |
+| [Readest](https://github.com/readest/readest/releases)                          |                                                              | √                                           |
 | [Sigil](https://github.com/Sigil-Ebook/Sigil/releases)                          | [PageEdit](https://github.com/Sigil-Ebook/PageEdit/releases) |                                             |
 | [Steam](https://store.steampowered.com/about)                                   |                                                              |                                             |
 | [Sublime Text](https://www.sublimetext.com/)                                    |                                                              | √                                           |
