@@ -36,7 +36,7 @@ status: completed
 ```
 D:/Apps/Mihomo/
 ├── config.yaml
-├── mihomo-windows-amd64.exe
+├── mihomo.exe
 ├── mihomo.start.vbs
 ├── Mihomo.Startup.xml
 ├── mihomo.stop.bat
@@ -85,13 +85,13 @@ D:/Apps/Mihomo/
 ### 开机自启
 
 1. 打开 Windows 任务计划程序
-2. 导入 `Mihomo.Startup.xml`，或新建一个任务来开机运行 `mihomo.start.vbs`.
+2. 导入 `mihomo.startup.xml`任务，或手动新建一个任务来启动 `mihomo.start.vbs`.
 3. 按需修改任务名称、**文件路径**、触发器、条件等等。
 4. **在“常规”选项卡中， 勾选“使用最高权限运行”**。（如果不设置此选项，每次启动会跳出 UAC 窗口）
 
 ### 停止运行
 
-后台运行时：运行 `mihomo.stop.bat` 或 `mihomo.stop.vbs`，也可以打开任务管理器，结束 `mihomo-windows-amd64.exe` 进程。
+后台运行时：运行 `mihomo.stop.bat` 或 `mihomo.stop.vbs`，也可以打开任务管理器，结束 `mihomo.exe` 进程。
 
 前台运行时：直接关闭“黑框”窗口即可关闭程序。
 
