@@ -19,10 +19,9 @@ tags:
 >[!NOTE]
 > 该 ID 对于每个账户来说是唯一的。
 
-1. 在 Telegram 中找到 Bot，点击进入聊天界面。
-2. 发送一条消息给 Bot，例如 "Hello"。
-3. 访问 Telegram API 获取更新：  `https://api.telegram.org/bot<Bot-Token>/getUpdates`
-4. 结果示例如下。JSON 中 `chat.id` 字段的值即为 Chat ID。
+1. 进入 Bot 聊天界面，发送一条消息，例如 "Hello"。
+2. 访问 Telegram API 获取更新：  `https://api.telegram.org/bot<Bot-Token>/getUpdates`
+3. 返回结果中的 `chat.id` 即为 Chat ID。
 
     ```json
     {
@@ -55,8 +54,13 @@ tags:
 
 ## 发送消息
 
->[!TIP]
-> 参考文档: [Telegram Bot API](https://core.telegram.org/bots/api#sendmessage)
+>[!TIP] 相关参考
+> - [sendMessage](https://core.telegram.org/bots/api#sendmessage)
+> - [sendPhoto](https://core.telegram.org/bots/api#sendphoto)
+> - [sendAudio](https://core.telegram.org/bots/api#sendaudio)
+> - [sendDocument](https://core.telegram.org/bots/api#senddocument)
+> - [sendVideo](https://core.telegram.org/bots/api#sendvideo)
+> - [sendMediaGroup](https://core.telegram.org/bots/api#sendmediagroup) 
 
 ### appleboy/telegram-action
 

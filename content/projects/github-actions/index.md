@@ -48,6 +48,8 @@ status: completed
 
 > [!NOTE]
 > 请查看对应项目的 README 文档确定所需变量。
+> 
+> 关于 Telegram 通知的配置，可参考 [Telegram Bot](/posts/telegram-bot) 获取 Bot Token 以及 Chat ID。
   
 ![01](images/01.png)
 
@@ -56,7 +58,7 @@ status: completed
 
 ## 常见问题
 
-### 手动触发任务
+### 手动执行任务
 
 ![05](images/05.png)
 
