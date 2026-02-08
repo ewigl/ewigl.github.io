@@ -40,11 +40,9 @@ D:/Apps/Mihomo/
 ├── mihomo.start.vbs
 ├── Mihomo.Startup.xml
 ├── mihomo.stop.bat
-├── ui/
-│   ├── index.html
-│   └── ...
-└── proxies/
-    └── Local.yaml
+└── ui/
+    ├── index.html
+    └── ...
 ```
 
 ### 配置流程
