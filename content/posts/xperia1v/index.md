@@ -8,7 +8,6 @@ lastmod: 2026-01-17
 
 tags:
   - Android
-  - Xperia
 ---
 
 ## [Lineage OS](https://wiki.lineageos.org/devices/pdx234/)
