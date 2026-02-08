@@ -55,6 +55,9 @@ tags:
 
 ## 发送消息
 
+>[!TIP]
+> 参考文档: [Telegram Bot API](https://core.telegram.org/bots/api#sendmessage)
+
 ### appleboy/telegram-action
 
 ```yaml
