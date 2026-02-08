@@ -40,7 +40,7 @@ D:/Apps/Mihomo/
 ├── mihomo.start.vbs
 ├── Mihomo.Startup.xml
 ├── mihomo.stop.bat
-├── zashboard/
+├── ui/
 │   ├── index.html
 │   └── ...
 └── proxies/
@@ -79,7 +79,7 @@ D:/Apps/Mihomo/
           interval: 86400
     ```
 
-2. 在 `mihomo-windows-amd64.exe` 上右键 -> 属性 -> 兼容性，勾选`以管理员权限身份运行此程序` **(Tun 模式需要管理员权限)**。
+2. 在 `mihomo.exe` 上右键 -> 属性 -> 兼容性，勾选`以管理员权限身份运行此程序` **(Tun 模式需要管理员权限)**。
 3. 双击 `mihomo.start.vbs` 使程序在后台运行，或双击 `mihomo.start.bat` 使程序在前台运行（会始终显示一个"小黑框"）。
 
 4. 浏览器访问控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
@@ -113,8 +113,7 @@ D:/Apps/Mihomo/
     │   └── xclash/
     │       └── mihomo
     └── clash/
-        ├── proxies/
-        ├── zashboard/
+        ├── ui/
         └── config.yaml
 ```
 
