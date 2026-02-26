@@ -10,13 +10,6 @@ featured: true
 tags:
   - GitHub
 
-github: https://github.com/ewigl
-demo:
-website:
-tech_stack:
-  - JavaScript
-  - GitHub Actions
-
 status: completed
 ---
 

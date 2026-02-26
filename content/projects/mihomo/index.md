@@ -10,13 +10,6 @@ featured: true
 tags:
   - mihomo
 
-github: https://github.com/ewigl/mihomo
-demo:
-website:
-tech_stack:
-  - VBScript
-  - Batchfile
-
 status: completed
 ---
 

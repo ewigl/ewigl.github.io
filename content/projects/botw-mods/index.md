@@ -10,12 +10,6 @@ featured: false
 tags:
   - 游戏
 
-github:
-demo:
-website: https://www.nexusmods.com/profile/EwigLicht8486/mods?gameId=2250
-tech_stack:
-  - Switch-Toolbox
-
 status: completed
 ---
 

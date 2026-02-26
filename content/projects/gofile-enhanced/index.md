@@ -10,12 +10,6 @@ featured: true
 tags:
   - GoFile
 
-github: https://github.com/ewigl/gofile-enhanced
-demo:
-website: https://greasyfork.org/scripts/515250
-tech_stack:
-  - JavaScript
-
 status: completed
 ---
 

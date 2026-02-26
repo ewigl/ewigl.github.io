@@ -10,12 +10,6 @@ featured: false
 tags:
   - 游戏
 
-github: "https://github.com/ewigl/enshrouded-mods"
-demo: ""
-website: "https://www.nexusmods.com/profile/EwigLicht8486/mods?gameId=5811"
-tech_stack:
-  - Lua
-
 status: "completed"
 ---
 
