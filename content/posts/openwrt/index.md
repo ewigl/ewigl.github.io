@@ -34,7 +34,7 @@ wlan_name="Licht_AX_5G"
 wlan_password="Licht998486."
 #
 root_password="Licht998486."
-lan_ip_address="192.168.8.1"
+lan_ip_address="192.168.8.1/24"
 
 # log potential errors
 exec >/tmp/setup.log 2>&1
