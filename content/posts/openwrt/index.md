@@ -43,11 +43,12 @@ if [ -n "$root_password" ]; then
 (echo "$root_password"; sleep 1; echo "$root_password") | passwd > /dev/null
 fi
 
-# Set hostname & timezone
+# Set hostname & timezone & Time Format
 if [ -n "$host_name" ]; then
 uci set system.@system[0].hostname="$host_name"
 uci set system.@system[0].timezone='CST-8'
 uci set system.@system[0].zonename='Asia/Shanghai'
+uci set system.@system[0].clock_hourcycle='h23' 
 uci commit system
 fi
 
