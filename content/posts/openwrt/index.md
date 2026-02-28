@@ -3,8 +3,8 @@ title: OpenWrt
 summary: OpenWrt 使用相关信息。
 cover: cover.jpg
 
-date: 2025-02-20
-lastmod: 2026-02-07
+date: 2025-02-07
+lastmod: 2026-02-28
 
 tags:
   - OpenWrt
@@ -17,7 +17,7 @@ tags:
 ## 自定义软件包
 
 ```
-luci-app-smartdns
+luci-app-smartdns iperf3
 ```
 
 ## 自定义初始化脚本
@@ -81,13 +81,12 @@ echo "All done!"
 
 ```
 
-## 初始配置
+## 自定义配置
 
-1. 配置 PPPoE 拨号。
-2. DHCP 固定常用设备 IP 地址。
-3. 恢复应用配置。
-
-## 部分配置
+> 一般流程：
+> 1. 配置 PPPoE。
+> 2. 配置静态 IP。
+> 3. 配置应用。
 
 ### DHCP
 
