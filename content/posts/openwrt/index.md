@@ -17,7 +17,7 @@ tags:
 ## 自定义软件包
 
 ```
-luci-app-smartdns iperf3
+luci-app-smartdns
 ```
 
 ## 自定义初始化脚本
@@ -79,4 +79,167 @@ fi
 
 echo "All done!"
 
+```
+
+## 初始配置
+
+1. 配置 PPPoE 拨号。
+2. DHCP 固定常用设备 IP 地址。
+3. 恢复应用配置。
+
+## 部分配置
+
+### DHCP
+
+```sh{filename="/etc/config/dhcp"}
+config host
+	option name 'Licht'
+	list mac ''
+	option ip '192.168.8.32'
+	option leasetime 'infinite'
+
+config host
+	option name 'Legion'
+	list mac ''
+	option ip '192.168.8.64'
+	option leasetime 'infinite'
+```
+
+### SmartDNS
+
+```sh{filename="/etc/config/smartdns"}
+config server
+	option enabled '1'
+	option name 'AliDNS'
+	option ip '223.5.5.5'
+	option type 'udp'
+	option server_group 'CN'
+
+config server
+	option enabled '1'
+	option name 'AliDNS_DOH'
+	option ip 'https://dns.alidns.com/dns-query'
+	option type 'https'
+	option server_group 'CN'
+
+config server
+	option enabled '1'
+	option name 'AliDNS_DOT'
+	option ip '223.5.5.5'
+	option type 'tls'
+	option server_group 'CN'
+
+config server
+	option enabled '1'
+	option name 'Cloudflare'
+	option ip '1.1.1.1'
+	option type 'udp'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Cloudflare_DOH'
+	option ip 'https://1.1.1.1/dns-query'
+	option type 'https'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Cloudflare_DOT'
+	option ip '1.1.1.1'
+	option type 'tls'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Google'
+	option ip '8.8.8.8'
+	option type 'udp'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Google_DOH'
+	option ip 'https://dns.google/dns-query'
+	option type 'https'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Google_DOT'
+	option ip '8.8.8.8'
+	option type 'tls'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Quad101'
+	option ip '101.101.101.101'
+	option type 'udp'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Quad101_DOH'
+	option ip 'https://101.101.101.101/dns-query'
+	option type 'https'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Quad101_DOT'
+	option ip '101.101.101.101'
+	option type 'tls'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Quad9'
+	option ip '9.9.9.9'
+	option type 'udp'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Quad9_DOH'
+	option ip 'https://dns.quad9.net/dns-query'
+	option type 'https'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'Quad9_DOT'
+	option ip '9.9.9.9'
+	option type 'tls'
+	option server_group 'UN'
+
+config server
+	option enabled '1'
+	option name 'TencentDNSPod'
+	option ip '119.29.29.29'
+	option type 'udp'
+	option server_group 'CN'
+
+config server
+	option enabled '1'
+	option name 'TencentDNSPod_DOH'
+	option ip 'https://doh.pub/dns-query'
+	option type 'https'
+	option server_group 'CN'
+
+config server
+	option enabled '1'
+	option name 'TencentDNSPod_DOT'
+	option ip '119.29.29.29'
+	option type 'tls'
+	option server_group 'CN'
+```
+
+### uhttpd
+
+```sh{filename="/etc/config/uhttpd"}
+config uhttpd "mihomo"
+	option home '/etc/mihomo'
+	list listen_http '0.0.0.0:8848'
+	list listen_https '0.0.0.0:8843'
 ```
