@@ -84,27 +84,6 @@ echo "All done!"
 
 ## 自定义配置
 
-> 一般流程：
-> 1. 配置 PPPoE。
-> 2. 配置静态 IP。
-> 3. 配置应用。
-
-### DHCP
-
-```sh{filename="/etc/config/dhcp"}
-config host
-	option name 'Licht'
-	list mac ''
-	option ip '192.168.8.32'
-	option leasetime 'infinite'
-
-config host
-	option name 'Legion'
-	list mac ''
-	option ip '192.168.8.64'
-	option leasetime 'infinite'
-```
-
 ### SmartDNS
 
 ```sh{filename="/etc/config/smartdns"}
