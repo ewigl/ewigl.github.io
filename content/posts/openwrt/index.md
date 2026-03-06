@@ -173,27 +173,6 @@ config server
 
 config server
 	option enabled '1'
-	option name 'Quad9'
-	option ip '9.9.9.9'
-	option type 'udp'
-	option server_group 'UN'
-
-config server
-	option enabled '1'
-	option name 'Quad9_DOH'
-	option ip 'https://dns.quad9.net/dns-query'
-	option type 'https'
-	option server_group 'UN'
-
-config server
-	option enabled '1'
-	option name 'Quad9_DOT'
-	option ip '9.9.9.9'
-	option type 'tls'
-	option server_group 'UN'
-
-config server
-	option enabled '1'
 	option name 'TencentDNSPod'
 	option ip '119.29.29.29'
 	option type 'udp'
@@ -222,3 +201,18 @@ config uhttpd "mihomo"
 	list listen_http '0.0.0.0:8848'
 	list listen_https '0.0.0.0:8843'
 ```
+
+## 配置 Nikki
+
+> [!NOTE] 官方地址
+> https://github.com/nikkinikki-org/OpenWrt-nikki
+
+### 安装
+
+> [!NOTE] 参考文档
+> https://github.com/nikkinikki-org/OpenWrt-nikki/blob/main/README.zh.md
+
+### 配置
+
+> [!NOTE] 注意事项
+> Proxy Config -> LAN Proxy -> Access Control 需要至少保留一个记录。
