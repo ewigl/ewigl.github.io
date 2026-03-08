@@ -193,15 +193,6 @@ config server
 	option server_group 'CN'
 ```
 
-### uhttpd
-
-```sh{filename="/etc/config/uhttpd"}
-config uhttpd "mihomo"
-	option home '/etc/mihomo'
-	list listen_http '0.0.0.0:8848'
-	list listen_https '0.0.0.0:8843'
-```
-
 ## 配置 Nikki
 
 > [!NOTE] 官方地址
