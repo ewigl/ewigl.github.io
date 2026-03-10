@@ -1,6 +1,6 @@
 ---
 title: Github Actions Tasks
-summary: 利用 GitHub Actions 执行自动任务。
+summary: 利用 GitHub Actions 执行一些自动任务。
 cover: cover.jpg
 
 date: 2024-06-02
@@ -15,9 +15,9 @@ status: completed
 
 ## 示例项目
 
-- [HIFINI 音乐磁场自动签到](https://github.com/ewigl/hifini-auto-checkin)
-- [iKuuu 机场自动签到](https://github.com/ewigl/ikuuu-auto-checkin)
-- [PicACG 哔咔漫画 定时自动签到](https://github.com/ewigl/picacg-auto-checkin)
+{{< link title="HIFINI 音乐磁场自动签到" description="支持多账号。" url="https://github.com/ewigl/hifini-auto-checkin" icon="https://www.hifiti.com/view/img/favicon.ico" >}}
+{{< link title="iKuuu 机场自动签到" description="支持多账号。支持 Telegram 通知。" url="https://github.com/ewigl/ikuuu-auto-checkin" icon="https://ikuuu.nl/favicon.ico" >}}
+{{< link title="PicACG 哔咔漫画自动签到" description="支持多账号。支持 Telegram 通知。" url="https://github.com/ewigl/picacg-auto-checkin" icon="https://manhuapica.com/favicon.png" >}}
 
 ## 示例用法
 

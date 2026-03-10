@@ -10,6 +10,8 @@ featured: true
 tags:
   - mihomo
 
+link: https://github.com/ewigl/mihomo
+
 status: completed
 ---
 
