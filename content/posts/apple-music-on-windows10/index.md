@@ -41,16 +41,14 @@ Apple Music Windows 版本只能通过 Microsoft Store 安装。
 
 ### 修改文件
 
-移除 Apple Music 中的下列目录或文件
+移除 Apple Music 中的下列目录或文件：
 
 - `AppxMetadata`
 - `[Content_Types].xml`
 - `AppxBlockMap.xml`
 - `AppxSignature.p7x`
 
-将 `AppxManifest.xml` 文件中 `TargetDeviceFamily` 的 `Min Version` 字段修改为 `10.0.19044.0` 。修改后的 `TargetDeviceFamily` 标签如下所示：
-
-`<TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19044.0" MaxVersionTested="10.0.22621.0" />`
+将 `AppxManifest.xml` 文件中 `TargetDeviceFamily` 的 `Min Version` 字段修改为 `10.0.19044.0` 。
 
 ### 注册软件包
 
