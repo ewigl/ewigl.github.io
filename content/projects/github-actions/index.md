@@ -37,17 +37,15 @@ status: completed
 
 ### 配置 Actions
 
-在复制后的仓库的左上角找到 Settings 标签页，选择 Secrets and variables。配置 Actions 变量。
+在复制后的仓库的左上角找到 Settings 标签页，选择 Secrets and variables。配置 Actions 变量。请查看对应项目的 README 文档确定所需变量。
 
-> [!NOTE]
-> 请查看对应项目的 README 文档确定所需变量。
-> 
-> 关于 Telegram 通知的配置，可参考 [Telegram Bot](/posts/telegram-bot) 获取 Bot Token 以及 Chat ID。
   
 ![01](images/01.png)
 
 ![02](images/02.png)
 
+> [!NOTE]
+> 关于 Telegram 通知的配置，可参考 [Telegram Bot](/posts/telegram-bot) 获取 Bot Token 以及 Chat ID。
 
 ## 常见问题
 
