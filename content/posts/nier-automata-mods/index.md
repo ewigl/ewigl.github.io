@@ -73,7 +73,7 @@ tags:
 
 1. 下载 [Santa Dress A2](https://www.nexusmods.com/nierautomata/mods/764?tab=files)
 2. 将 data 与 wax 目录移动到游戏根目录。
-3. 
+
 ### 2B in YoRHa Unofficial Ceremonial Attire (Stellar Blade)
 
 1. 下载 [YoRHa Unofficial Ceremonial Attire](https://www.nexusmods.com/nierautomata/mods/749?tab=files)
