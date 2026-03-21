@@ -1,18 +1,15 @@
 main:
-  - identifier: nav.projects
-    name: Projects
+  - name: 项目
     pageRef: /projects
     weight: 10
     params:
       icon: projects
-  - identifier: nav.posts
-    name: Posts
+  - name: 文章
     pageRef: /posts
     weight: 20
     params:
       icon: posts
-  - identifier: nav.tags
-    name: Tags
+  - name: 标签
     pageRef: /tags
     weight: 40
     params:
@@ -31,11 +28,13 @@ footer:
     weight: 10
     params:
       icon: book-open
+
   - name: 应用
     pageRef: /apps
     weight: 20
     params:
       icon: apps
+
   - name: 关于
     pageRef: /about
     weight: 999
