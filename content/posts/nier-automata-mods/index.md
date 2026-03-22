@@ -8,6 +8,7 @@ lastmod: 2026-03-20
 
 tags:
   - 游戏
+
 ---
 
 > 参考: [The Definitive NieR Automata Experience (Mod List and Guide)](https://www.nexusmods.com/nierautomata/mods/29)
@@ -15,25 +16,12 @@ tags:
 
 ## 准备工作
 
-1. 安装游戏，至少启动一次。
-2. 下载 [Preparation Folders](https://www.nexusmods.com/nierautomata/mods/29?tab=files)，解压至游戏根目录。
-
-    或手动准备目录结构:
-    ```
-    基本目录:
-    NierAutomata\data\wp
-    NierAutomata\data\pl
-    NierAutomata\data\wp
-
-    Wolf's Automata eXtensions (WAX) 目录:
-    NierAutomata\WAX
-    NierAutomata\WAX\mods
-    ```
+安装游戏，至少启动一次。
 
 ## 安装汉化
 
 1. 下载 [NieR_Chinese](https://gitee.com/WLongWLong/nier_chinese)
-2. 参考 README。
+2. 参考 README，替换游戏原始 data 文件。
 
 ## 安装框架
 
@@ -41,25 +29,6 @@ tags:
 
 1. 下载 [WAX](https://www.nexusmods.com/nierautomata/mods/744?tab=files)
 2. 将 wax.dll 解压到游戏根目录，重命名为 d3d11.dll。
-
-## Fix 与 QOL
-
-### Grid Vignette and Bunker Grain Removal
-
-1. 下载 [Grid Vignette and Bunker Grain Removal](https://www.nexusmods.com/nierautomata/mods/149?tab=files)
-2. 解压缩，将文件移动到 NieRAutomata\WAX\mods\Grid Vignette and Bunker Grain Removal\textures。（WAX）
-
-### ~~Prologue Checkpoints - No More Full Restarts~~
-
-> 与汉化冲突。
-
-1. 下载 [Prologue Checkpoints](https://www.nexusmods.com/nierautomata/mods/753?tab=files)
-2. 解压缩，将文件移动到 NieRAutomata\data\ph1。
-
-### Home Menu Texture compression fix
-
-1. 下载 [Home Menu Texture compression fix](https://www.nexusmods.com/nierautomata/mods/151?tab=files)
-2. 解压缩，将文件移动到 NieRAutomata\WAX\mods\Home Menu Texture compression fix\textures。（WAX）
 
 ## 视觉效果
 
@@ -92,4 +61,3 @@ tags:
 
 1. 下载 [9S 与 Pods](https://www.nexusmods.com/nierautomata/mods/30?tab=files)
 2. 将 data 目录移动到游戏根目录。将 SK_Res 中的贴图移动到 NieRAutomata\WAX\mods\Androids Remastered\textures。
-
