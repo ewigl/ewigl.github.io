@@ -49,7 +49,9 @@ tags:
 1. 下载 [Grid Vignette and Bunker Grain Removal](https://www.nexusmods.com/nierautomata/mods/149?tab=files)
 2. 解压缩，将文件移动到 NieRAutomata\WAX\mods\Grid Vignette and Bunker Grain Removal\textures。（WAX）
 
-### Prologue Checkpoints - No More Full Restarts
+### ~Prologue Checkpoints - No More Full Restarts~
+
+> 与汉化冲突。
 
 1. 下载 [Prologue Checkpoints](https://www.nexusmods.com/nierautomata/mods/753?tab=files)
 2. 解压缩，将文件移动到 NieRAutomata\data\ph1。
