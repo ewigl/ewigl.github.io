@@ -42,18 +42,16 @@ tags:
 
 ### PIF
 
-依次安装:
+**依次**安装:
 
 1. [ReZygisk](https://github.com/PerformanC/ReZygisk/releases)
-2. [Play integrity Fix](https://github.com/KOWX712/PlayIntegrityFix/releases)
-3. [TrickyStore](https://github.com/5ec1cff/TrickyStore)
-4. [TrickyStore Addon](https://github.com/KOWX712/Tricky-Addon-Update-Target-List/releases)
-5. [Yuri Keybox Manager](https://github.com/YurikeyDev/yurikey/releases)
+2. [Treat Wheel](https://t.me/zygote64_32)
+3. [Play integrity Fix](https://github.com/KOWX712/PlayIntegrityFix/releases)
+4. [TEESimulator](https://github.com/JingMatrix/TEESimulator/releases)
+5. [Tricky Addon Enhanced](https://github.com/Enginex0/tricky-addon-enhanced/releases)
 6. 重启
 
-"执行" Yuri Keybox Manager。
-
-## 其他信息
+## Info
 
 - 同时按住 <kbd>音量上</kbd> + <kbd>音量下</kbd> + <kbd>电源</kbd> 强制重启。
 - <kbd>音量上</kbd> + <kbd>电源</kbd> = 蓝色灯 - Bootloader
