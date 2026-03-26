@@ -9,6 +9,7 @@ lastmod: 2026-03-22
 tags:
   - 游戏
 
+draft: true
 ---
 
 ## ClairObscurFix
@@ -78,3 +79,12 @@ Strength = 0
 1. 下载 [Lune Sciel Verso no Tattoo no Scar](https://www.nexusmods.com/clairobscurexpedition33/mods/131?tab=files)
 2. 需要的文件: 177_Lune_.NoTat_P、178_Sciel_NoNeckTat_P、179_Sciel_NoBodyScar_P。
 3. 将解压后的文件移动到 Sandfall\Content\Paks\~mods。
+
+
+## Camera FOV
+
+> 摄像机视野。
+
+1. 下载 [Camera FOV](https://www.nexusmods.com/clairobscurexpedition33/mods/172?tab=files)
+2. 下载 [UE4SS experimental-latest](https://github.com/UE4SS-RE/RE-UE4SS/releases/)
+3. 将 Mod 文件移动到 Sandfall\Binaries\Win64 目录中。
