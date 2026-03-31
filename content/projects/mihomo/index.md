@@ -93,7 +93,7 @@ D:/Apps/Mihomo/
 ## 配置 - Android
 
 1. 获取手机 Root 权限。
-2. 从 [Release](https://github.com/ewigl/mihomo/releases/latest) 下载 `android-*.zip`，解压缩。
+2. 从 [Release](https://github.com/ewigl/mihomo-config-bfr/releases/latest) 下载 `bfr-*.zip`，解压缩。
 3. 下载 [Box for Root](https://github.com/taamarin/box_for_magisk/releases)，使用模块管理器刷入模块，**无需立刻重启**。
 4. 整理现有文件到如下目录结构，`/data/adb/box/`为绝对路径。
 
