@@ -1,0 +1,59 @@
+main:
+  - name: 项目
+    pageRef: /projects
+    weight: 10
+    params:
+      icon: projects
+  - name: 文章
+    pageRef: /posts
+    weight: 20
+    params:
+      icon: posts
+  - name: 标签
+    pageRef: /tags
+    weight: 40
+    params:
+      icon: tags
+  # - name: Archives
+  #   pageRef: /archives
+  #   weight: 50
+  #   params:
+  #     icon: archive
+
+footer:
+  - name: 待办
+    pageRef: /to-do
+    weight: 10
+    params:
+      icon: book-open
+
+  - name: 应用
+    pageRef: /apps
+    weight: 20
+    params:
+      icon: apps
+
+  - name: 关于
+    pageRef: /about
+    weight: 999
+    params:
+      icon: about
+
+social:
+  - name: GitHub
+    url: https://github.com/ewigl
+    weight: 10
+    params:
+      icon: github
+
+  - name: GreasyFork
+    url: https://greasyfork.org/users/1231416
+    weight: 20
+    params:
+      icon: greasyfork
+
+  - name: NexusMods
+    url: https://www.nexusmods.com/profile/EwigLicht8486
+    weight: 30
+    params:
+      icon: nexusmods
