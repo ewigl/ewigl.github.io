@@ -17,7 +17,7 @@ tags:
 ## 自定义软件包
 
 ```
-luci-app-smartdns iperf3
+luci-i18n-base-zh-cn luci-i18n-attendedsysupgrade-zh-cn luci-i18n-firewall-zh-cn luci-i18n-package-manager-zh-cn luci-i18n-smartdns-zh-cn iperf3
 ```
 
 ## 自定义初始化脚本
