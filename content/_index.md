@@ -14,6 +14,6 @@ author:
       url: https://greasyfork.org/users/1231416
       icon: greasyfork
     - name: NexusMods
-      url: https://www.nexusmods.com/profile/EwigLicht8486
+      url: https://www.nexusmods.com/profile/EwigLicht886
       icon: nexusmods
 ---
