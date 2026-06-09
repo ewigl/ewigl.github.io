@@ -21,11 +21,11 @@ main:
   #     icon: archive
 
 footer:
-  - name: 待办
-    pageRef: /to-do
-    weight: 10
-    params:
-      icon: book-open
+  # - name: 待办
+  #   pageRef: /to-do
+  #   weight: 10
+  #   params:
+  #     icon: book-open
 
   - name: 应用
     pageRef: /apps
