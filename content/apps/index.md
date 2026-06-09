@@ -16,7 +16,7 @@ tags:
 | [7zip](https://www.7-zip.org/)                                        |                                               |                                             |
 | [Chrome](https://www.google.com/chrome/)                              |                                               |                                             |
 | [foobar2000](https://www.foobar2000.org/windows)                      | [ESLyric](https://github.com/ESLyric/release) | 安装后于根目录创建 profile 目录。           |
-| [Greenshot](https://github.com/greenshot/greenshot/releases)          |                                               | √                                           |
+<!-- | [Greenshot](https://github.com/greenshot/greenshot/releases)          |                                               | √                                           | -->
 | [Internet Download Manager](https://www.internetdownloadmanager.com/) | [idm.ckk.ir](https://idm.ckk.ir/)             |                                             |
 | [IrfanView](https://www.irfanview.com/)                               | 安装 All plugins 选项                         | 根目录 i_view64.ini 文件为配置文件。        |
 | [Mihomo](https://github.com/ewigl/mihomo)                             |                                               | √                                           |
@@ -59,18 +59,8 @@ tags:
 
 ### SDK / Runtime
 
-#### 必装
-
-- [.NET 8.0](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0) (LTS)
+- [.NET 10](https://dotnet.microsoft.com/zh-cn/download/dotnet/10.0) (LTS)
 - [DirectX](https://www.microsoft.com/zh-cn/download/details.aspx?id=35)
 - [Git](https://git-scm.com/)
-- [MSVCR Latest](https://learn.microsoft.com/zh-cn/cpp/windows/latest-supported-vc-redist?view=msvc-170)
+- [MSVCR Latest](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170#latest-supported-redistributable-version)
 - [platform-tools](https://developer.android.com/tools/releases/platform-tools)
-
-#### 选装
-
-- [ffmpeg](https://ffmpeg.org/download.html)
-- [JDK](https://www.oracle.com/java/technologies/downloads/)
-- [MS Edge WebView2 Runtime (Evergreen Standalone Installer)](https://developer.microsoft.com/en-us/microsoft-edge/webview2)
-- [Node.js](https://nodejs.org/en/download/)
-- [Python](https://www.python.org/downloads/)
