@@ -31,9 +31,9 @@ luci-i18n-base-zh-cn luci-i18n-attendedsysupgrade-zh-cn luci-i18n-firewall-zh-cn
 host_name="Licht_AX"
 #
 wlan_name="Licht_AX_5G"
-wlan_password="Licht998486."
+wlan_password="Licht150886."
 #
-root_password="Licht998486."
+root_password="Licht150886."
 lan_ip_address="192.168.8.1/24"
 
 # log potential errors
