@@ -19,8 +19,6 @@ status: completed
 
 ![desktop](images/desktop.png "桌面端")
 
-![mobile](images/mobile.png "移动端")
-
 ## 配置
 
 - 从 [Release](https://github.com/ewigl/mihomo/releases/latest) 下载 `windows-*.zip`，解压缩。
