@@ -1,6 +1,6 @@
 ---
 title: Mihomo
-summary: Mihomo tun 模式配置文件。
+summary: Mihomo Windows tun 模式配置文件。
 cover: cover.jpg
 
 date: 2023-11-02
@@ -21,7 +21,7 @@ status: completed
 
 ![mobile](images/mobile.png "移动端")
 
-## 配置 - Windows
+## 配置
 
 - 从 [Release](https://github.com/ewigl/mihomo/releases/latest) 下载 `windows-*.zip`，解压缩。
 - 整理现有文件到如下目录结构。
@@ -89,36 +89,6 @@ D:/Apps/Mihomo/
 后台运行时：运行 `mihomo.stop.bat` 或 `mihomo.stop.vbs`，也可以打开任务管理器，结束 `mihomo.exe` 进程。
 
 前台运行时：直接关闭“黑框”窗口即可关闭程序。
-
-## 配置 - Android
-
-1. 获取手机 Root 权限。
-2. 从 [Release](https://github.com/ewigl/mihomo-config-bfr/releases/latest) 下载 `bfr-*.zip`，解压缩。
-3. 下载 [Box for Root](https://github.com/taamarin/box_for_magisk/releases)，使用模块管理器刷入模块，**无需立刻重启**。
-4. 整理现有文件到如下目录结构，`/data/adb/box/`为绝对路径。
-
-### 目录结构
-
-```
-.
-└── /data/adb/box/
-    ├── bin/
-    │   └── xclash/
-    │       └── mihomo
-    └── clash/
-        ├── ui/
-        └── config.yaml
-```
-
-### 配置流程
-
-1.  参考 Windows 配置流程在 `config.yaml` 中添加订阅。
-2.  重启。
-3.  浏览器访问控制台：[http://localhost:9090/ui](http://localhost:9090/ui)。
-
-### 注意事项
-
-在模块管理界面, 可以使用“执行”按钮来运行、停止 mihomo。
 
 ## 提醒
 
