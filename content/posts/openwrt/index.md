@@ -87,110 +87,149 @@ echo "All done!"
 ### SmartDNS
 
 ```sh{filename="/etc/config/smartdns"}
-config server
-	option enabled '1'
-	option name 'AliDNS'
-	option ip '223.5.5.5'
-	option type 'udp'
-	option server_group 'CN'
+config smartdns
+        option enabled '1'
+        option server_name 'smartdns'
+        option port '53'
+        option auto_set_dnsmasq '1'
+        option tcp_server '1'
+        option ipv6_server '1'
+        option bind_device '1'
+        option dualstack_ip_selection '1'
+        option serve_expired '1'
+        option cache_persist '1'
+        option resolve_local_hostnames '1'
+        option force_https_soa '1'
+        option rr_ttl_min '600'
+        option seconddns_port '6553'
+        option seconddns_tcp_server '1'
+        option old_port '53'
+        option old_enabled '1'
+        option old_auto_set_dnsmasq '1'
+
+config domain-rule
+
+config client-rule
+
+config ip-rule
 
 config server
-	option enabled '1'
-	option name 'AliDNS_DOH'
-	option ip 'https://dns.alidns.com/dns-query'
-	option type 'https'
-	option server_group 'CN'
+        option enabled '1'
+        option name 'AliDNS'
+        option ip '223.5.5.5'
+        option type 'udp'
+        option server_group 'CN'
+        option exclude_default_group '1'
 
 config server
-	option enabled '1'
-	option name 'AliDNS_DOT'
-	option ip '223.5.5.5'
-	option type 'tls'
-	option server_group 'CN'
+        option enabled '1'
+        option name 'AliDNS_DOH'
+        option ip 'https://dns.alidns.com/dns-query'
+        option type 'https'
+        option server_group 'CN'
+        option exclude_default_group '1'
 
 config server
-	option enabled '1'
-	option name 'Cloudflare'
-	option ip '1.1.1.1'
-	option type 'udp'
-	option server_group 'UN'
+        option enabled '1'
+        option name 'AliDNS_DOT'
+        option ip '223.5.5.5'
+        option type 'tls'
+        option server_group 'CN'
+        option exclude_default_group '1'
 
 config server
-	option enabled '1'
-	option name 'Cloudflare_DOH'
-	option ip 'https://1.1.1.1/dns-query'
-	option type 'https'
-	option server_group 'UN'
+        option enabled '1'
+        option name 'Cloudflare'
+        option ip '1.1.1.1'
+        option type 'udp'
+        option server_group 'UN'
 
 config server
-	option enabled '1'
-	option name 'Cloudflare_DOT'
-	option ip '1.1.1.1'
-	option type 'tls'
-	option server_group 'UN'
+        option enabled '1'
+        option name 'Cloudflare_DOH'
+        option ip 'https://1.1.1.1/dns-query'
+        option type 'https'
+        option server_group 'UN'
 
 config server
-	option enabled '1'
-	option name 'Google'
-	option ip '8.8.8.8'
-	option type 'udp'
-	option server_group 'UN'
+        option enabled '1'
+        option name 'Cloudflare_DOT'
+        option ip '1.1.1.1'
+        option type 'tls'
+        option server_group 'UN'
 
 config server
-	option enabled '1'
-	option name 'Google_DOH'
-	option ip 'https://dns.google/dns-query'
-	option type 'https'
-	option server_group 'UN'
+        option enabled '1'
+        option name 'Google'
+        option ip '8.8.8.8'
+        option type 'udp'
+        option server_group 'UN'
 
 config server
-	option enabled '1'
-	option name 'Google_DOT'
-	option ip '8.8.8.8'
-	option type 'tls'
-	option server_group 'UN'
+        option enabled '1'
+        option name 'Google_DOH'
+        option ip 'https://dns.google/dns-query'
+        option type 'https'
+        option server_group 'UN'
 
 config server
-	option enabled '1'
-	option name 'Quad101'
-	option ip '101.101.101.101'
-	option type 'udp'
-	option server_group 'UN'
+        option enabled '1'
+        option name 'Google_DOT'
+        option ip '8.8.8.8'
+        option type 'tls'
+        option server_group 'UN'
 
 config server
-	option enabled '1'
-	option name 'Quad101_DOH'
-	option ip 'https://101.101.101.101/dns-query'
-	option type 'https'
-	option server_group 'UN'
+        option enabled '1'
+        option name 'Quad101'
+        option ip '101.101.101.101'
+        option type 'udp'
+        option server_group 'UN'
 
 config server
-	option enabled '1'
-	option name 'Quad101_DOT'
-	option ip '101.101.101.101'
-	option type 'tls'
-	option server_group 'UN'
+        option enabled '1'
+        option name 'Quad101_DOH'
+        option ip 'https://101.101.101.101/dns-query'
+        option type 'https'
+        option server_group 'UN'
 
 config server
-	option enabled '1'
-	option name 'TencentDNSPod'
-	option ip '119.29.29.29'
-	option type 'udp'
-	option server_group 'CN'
+        option enabled '1'
+        option name 'Quad101_DOT'
+        option ip '101.101.101.101'
+        option type 'tls'
+        option server_group 'UN'
 
 config server
-	option enabled '1'
-	option name 'TencentDNSPod_DOH'
-	option ip 'https://doh.pub/dns-query'
-	option type 'https'
-	option server_group 'CN'
+        option enabled '1'
+        option name 'TencentDNSPod'
+        option ip '119.29.29.29'
+        option type 'udp'
+        option server_group 'CN'
+        option exclude_default_group '1'
 
 config server
-	option enabled '1'
-	option name 'TencentDNSPod_DOT'
-	option ip '119.29.29.29'
-	option type 'tls'
-	option server_group 'CN'
+        option enabled '1'
+        option name 'TencentDNSPod_DOH'
+        option ip 'https://doh.pub/dns-query'
+        option type 'https'
+        option server_group 'CN'
+        option exclude_default_group '1'
+
+config server
+        option enabled '1'
+        option name 'TencentDNSPod_DOT'
+        option ip '119.29.29.29'
+        option type 'tls'
+        option server_group 'CN'
+        option exclude_default_group '1'
+
+config domain-rule-list
+        option enabled '1'
+        option server_group 'CN'
+        option domain_list_file '/etc/smartdns/domain-set/smartdns-domains.china.conf'
+        option block_domain_type 'none'
+        option name 'CN'
 ```
 
 ## 配置 Nikki
