@@ -40,23 +40,23 @@ lan_ip_address="192.168.8.1/24"
 exec >/tmp/setup.log 2>&1
 
 if [ -n "$root_password" ]; then
-(echo "$root_password"; sleep 1; echo "$root_password") | passwd > /dev/null
+  (echo "$root_password"; sleep 1; echo "$root_password") | passwd > /dev/null
 fi
 
 # Set hostname & timezone & Time Format
 if [ -n "$host_name" ]; then
-uci set system.@system[0].hostname="$host_name"
-uci set system.@system[0].timezone='CST-8'
-uci set system.@system[0].zonename='Asia/Shanghai'
-uci set system.@system[0].clock_hourcycle='h23' 
-uci commit system
+  uci set system.@system[0].hostname="$host_name"
+  uci set system.@system[0].timezone='CST-8'
+  uci set system.@system[0].zonename='Asia/Shanghai'
+  uci set system.@system[0].clock_hourcycle='h23' 
+  uci commit system
 fi
 
 # Configure LAN
 # More options: https://openwrt.org/docs/guide-user/base-system/basic-networking
 if [ -n "$lan_ip_address" ]; then
-uci set network.lan.ipaddr="$lan_ip_address"
-uci commit network
+  uci set network.lan.ipaddr="$lan_ip_address"
+  uci commit network
 fi
 
 # Configure WLAN
@@ -64,18 +64,18 @@ fi
 if [ -n "$wlan_name" -a -n "$wlan_password" -a ${#wlan_password} -ge 8 ]; then
 # 5G HZ WLAN @wifi-device[1]
 # Device
-uci set wireless.@wifi-device[1].disabled='0'
-uci set wireless.@wifi-device[1].country='US'
-uci set wireless.@wifi-device[1].cell_density='2'
-uci set wireless.@wifi-device[1].channel='64'
-uci set wireless.@wifi-device[1].htmode='HE160'
+  uci set wireless.@wifi-device[1].disabled='0'
+  uci set wireless.@wifi-device[1].country='US'
+  uci set wireless.@wifi-device[1].cell_density='2'
+  uci set wireless.@wifi-device[1].channel='64'
+  uci set wireless.@wifi-device[1].htmode='HE160'
 # Interface
-uci set wireless.@wifi-iface[1].disabled='0'
-uci set wireless.@wifi-iface[1].encryption='psk2'
-uci set wireless.@wifi-iface[1].ssid="$wlan_name"
-uci set wireless.@wifi-iface[1].key="$wlan_password"
+  uci set wireless.@wifi-iface[1].disabled='0'
+  uci set wireless.@wifi-iface[1].encryption='psk2'
+  uci set wireless.@wifi-iface[1].ssid="$wlan_name"
+  uci set wireless.@wifi-iface[1].key="$wlan_password"
 #
-uci commit wireless
+  uci commit wireless
 fi
 
 echo "All done!"
