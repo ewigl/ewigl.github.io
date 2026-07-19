@@ -27,13 +27,14 @@ luci-i18n-base-zh-cn luci-i18n-attendedsysupgrade-zh-cn luci-i18n-firewall-zh-cn
 ```sh
 # Beware! This script will be in /rom/etc/uci-defaults/ as part of the image.
 # Uncomment lines to apply:
-#
+# Host
 host_name="Licht_AX"
-#
+# WLAN
 wlan_name="Licht_AX_5G"
 wlan_password="Licht150886."
-#
+# ROOT
 root_password="Licht150886."
+# LAN
 lan_ip_address="192.168.8.1/24"
 
 # log potential errors
@@ -74,7 +75,7 @@ if [ -n "$wlan_name" -a -n "$wlan_password" -a ${#wlan_password} -ge 8 ]; then
   uci set wireless.@wifi-iface[1].encryption='psk2'
   uci set wireless.@wifi-iface[1].ssid="$wlan_name"
   uci set wireless.@wifi-iface[1].key="$wlan_password"
-#
+# Commit
   uci commit wireless
 fi
 
