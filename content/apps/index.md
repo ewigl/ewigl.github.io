@@ -16,7 +16,6 @@ tags:
 | [7zip](https://www.7-zip.org/)                                        |                                               |                                             |
 | [Chrome](https://www.google.com/chrome/)                              |                                               |                                             |
 | [foobar2000](https://www.foobar2000.org/windows)                      | [ESLyric](https://github.com/ESLyric/release) | 安装后于根目录创建 profile 目录。           |
-<!-- | [Greenshot](https://github.com/greenshot/greenshot/releases)          |                                               | √                                           | -->
 | [Internet Download Manager](https://www.internetdownloadmanager.com/) | [idm.ckk.ir](https://idm.ckk.ir/)             |                                             |
 | [IrfanView](https://www.irfanview.com/)                               | 安装 All plugins 选项                         | 根目录 i_view64.ini 文件为配置文件。        |
 | [Mihomo](https://github.com/ewigl/mihomo)                             |                                               | √                                           |
@@ -40,10 +39,10 @@ tags:
 
 #### 选装
 
-| 名称 & 来源                                                                     | 扩展 | 便携化 / 保存配置           |
-| ------------------------------------------------------------------------------- | ---- | --------------------------- |
-| [AB Download Manager](https://github.com/amir1376/ab-download-manager/releases) |      | √ 于根目录创建 .abdm 目录。 |
-| [Adobe 系列](https://vk.com/monkrus)                                            |      |                             |
+| 名称 & 来源                                                                                                                 | 扩展                                                         | 便携化 / 保存配置              |
+| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------ |
+| [AB Download Manager](https://github.com/amir1376/ab-download-manager/releases)                                             |                                                              | √ 于根目录创建 .abdm 目录。    |
+| [Adobe 系列](https://vk.com/monkrus)                                                                                        |                                                              |                                |
 | [AdobeCreativeCloudCleanerTool](https://helpx.adobe.com/creative-cloud/kb/cc-cleaner-tool-installation-problems.html)       |                                                              | √                              |
 | [CheatEngine](https://cheatengine.org/)                                                                                     |                                                              |                                |
 | [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextratgui/files/)                                                     |                                                              | √                              |
